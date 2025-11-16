@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #bdbdbd;
+}
+
+.topnav a {
+    float: left;
+    color: rgb(46, 101, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: rgb(36, 114, 0);
+    color: rgb(170, 25, 25);
+}
+
+.topnav a.active {
+    background-color: yellowgreen;
+    color: darkcyan;
+}
+
+.Head {
+    color:white;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.location {
+    color:red;
+}
+img#Image {
+    float: right;
+    margin-left: 15px;
+}
+.info {
+    text-align: left;
+    color:blue;
+}
